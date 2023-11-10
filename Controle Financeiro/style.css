@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #854387;
+}
+
+img {
+     margin-left: 150px;
+    -webkit-filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%)); 
+        filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%));
+}
+
+.titulo {
+    font-family: 'lobster';
+    font-size: 60px;
+    margin-left: 750px;
+    margin-top: -350px;
+}
+
+.subtitulo {
+    font-family: 'lobster';
+    font-size: 50px;
+    margin-left: 715px;
+    margin-top: 30px;
+}
+
+.resumo {
+    font-family: 'Abril Fatface', serif;
+    font-size: 25px;
+    display: inline-block;
+    display: flex;      
+    margin-top: 200px;
+    align-items: center;
+    margin-left: 260px;
+}
+
+.b1 {
+    width: 400px;
+}
+
+.b2 {
+   width: 400px;
+ }
+
+ .b3 {
+   width: 400px;
+ }
+
+ .novoItem {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 280px;
+ }
+
+ .divDesc {
+    font-family: 'Abril Fatface', serif;
+    font-size: 20px;
+    width: 350px;
+ }
+
+ .divValor {
+    font-family: 'Abril Fatface', serif;
+    font-size: 20px;
+    width: 300px;
+ }
+
+ .divTipo {
+    font-family: 'Abril Fatface', serif;
+    font-size: 20px;
+    width: 230px;
+ }
+
+ #desc {
+    background-color:#7B0089;
+    border-radius: 20px;
+    height: 20px;
+    padding-left: 5px;
+ }
+
+ #valor {
+    background-color:#7B0089;
+    border-radius: 20px;
+    height: 20px;
+    padding-left: 5px;
+ }
+
+ #tipo {
+    background-color:#7B0089;
+    border-radius: 20px;
+    height: 30px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+ }
+
+ #btnNovo {
+    background-color:#7B0089;
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+ }
+
+ .divTabela {
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 300px;
+ }
+
+ .imagem {
+    width: 40px;
+ }
+
+ .comando {
+    font-family: 'Abril Fatface', serif;
+    font-size: 20px;
+ }
+
+ .columnDesc {
+    width: 300px;
+ }
+
+ .columnValor {
+    width: 300px;
+ }
+
+ .columnTipo {
+    width: 300px;
+ }
+
+.botaoo {
+    background-color:#7B0089;
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.columntipo {
+    font-size: 20px;   
+}
+
+td {
+    font-size: 20px;
+}
